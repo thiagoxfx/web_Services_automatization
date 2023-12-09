@@ -9,7 +9,7 @@ from myfunctions import load_excel_data, make_chrome_browser, open_webservices
 # Path for project root
 ROOT_FOLDER = Path(__file__).parent
 # Path for dataset from excel
-WORKBOOK_PATH = ROOT_FOLDER / 'servers.xlsx'
+WORKBOOK_PATH = ROOT_FOLDER / 'Ips_Servidores_licencas.xlsx'
 
 
 if __name__ == '__main__':

@@ -16,9 +16,9 @@ CHROME_BINARY_PATH = ROOT_FOLDER / 'chrome-win32' / 'chrome.exe'
 
 def load_excel_data(file_path):
     workbook = load_workbook(file_path)
-    worksheet = workbook['webservices']
-    return [row[0].value for row in worksheet.iter_rows(min_row=2, min_col=2,
-            max_col=2) if row[0].value is not None]
+    worksheet = workbook['Servicos_Web']
+    return [row[0].value for row in worksheet.iter_rows(min_row=3, min_col=4,
+            max_col=4) if row[0].value is not None]
 
 # Function to open Chrome
 
